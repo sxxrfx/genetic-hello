@@ -138,6 +138,10 @@ impl Candidate {
         self.fitness
     }
 
+    pub fn text(&self) -> String {
+        self.text.clone()
+    }
+
     pub fn set_fitness(&mut self, target_str: &str) {
         self.fitness = self
             .text
