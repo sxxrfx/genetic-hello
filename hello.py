@@ -196,7 +196,7 @@ def main(
                 population, population_size=population_size, mutation_prob=mutation_prob
             ),
         ):
-            time.sleep(01.016)
+            time.sleep(0.016)
             print("\033[H\033[J", end="")
             display(
                 population=population,
